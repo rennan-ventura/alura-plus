@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
 :root {
     --branco-primario: #FFFFFF;
     --branco-secundario: #C0C0C0;
@@ -24,6 +27,8 @@ body {
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao{
@@ -33,4 +38,9 @@ body {
     text-decoration: none;
     color: var(--branco-primario);
     display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-primario);
 }
