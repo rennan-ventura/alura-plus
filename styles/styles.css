@@ -23,6 +23,7 @@ body {
     font-weight: 400;
 }
 
+
 .principal {
     background-image: url(".././assets/Background.png");
     background-repeat: no-repeat;
@@ -77,4 +78,15 @@ body {
 .secundario {
     align-items: center;
     margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-primario);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--branco-secundario);
 }
