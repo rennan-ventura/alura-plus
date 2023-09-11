@@ -1,0 +1,36 @@
+:root {
+    --branco-primario: #FFFFFF;
+    --branco-secundario: #C0C0C0;
+    --cor-fundo: #040814;
+    --cor-destaque: #EC2F46;
+    --cor-botao: #167BF7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-primario);
+}
+
+.principal {
+    background-image: url(".././assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container__botao{
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco-primario);
+    display: block;
+}
