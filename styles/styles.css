@@ -90,3 +90,12 @@ body {
 .descricao__texto {
     color: var(--branco-secundario);
 }
+
+.botao__terciario {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
