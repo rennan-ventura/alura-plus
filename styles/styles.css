@@ -4,10 +4,11 @@
 :root {
     --branco-primario: #FFFFFF;
     --branco-secundario: #C0C0C0;
-    --cor-fundo: #040814;
+    --cor-fundo: #00030C;
     --cor-destaque: #EC2F46;
     --cor-botao: #167BF7;
     --fonte-principal: 'Inter', sans-serif;
+    --botao-efeito: #3C92FA;
 }
 
 * {
@@ -61,9 +62,19 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    background-color: var(--botao-efeito);
+    color: var(--cor-fundo);
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-primario);
+}
+
+.botao_secundario:hover{
+    background-color: #ffffff1c;
+    color: var(--branco-primario);
 }
 
 .container__aviso {
@@ -124,7 +135,10 @@ body {
 
 .rodape {
     text-align: center;
-    margin-top: 5em;
+}
+
+.rodape__logo {
+    margin-top: 3em;
 }
 
 .rodape__lista {
@@ -144,8 +158,12 @@ body {
     text-decoration: none;
 }
 
+.lista__link__item:hover {
+    color: var(--cor-botao);
+}
+
 .rodape__texto {
     color: var(--branco-secundario);
     font-size: 1em;
-    margin: 4em 0;
+    margin: 2em 0;
 }
